@@ -1,4 +1,4 @@
-const mass = [true, 'cat', 'cost', 9, 12, false, true, 234, true, 'hat'];
+const mass = [true, 'cat', 'cost', 9, 12, false, true, 2.4, true, 'hat'];
 
 const obj = { 
     number: 0, 

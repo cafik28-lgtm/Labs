@@ -1,3 +1,0 @@
-function range(start, end){
-    
-}

@@ -15,17 +15,9 @@
  Результати складіть у масив і поверніть із функції calculate.
  */
 
- function average(a, b){
-    return (a + b)/2;
- }
-
- function square(x){
-    return x**2;
- }
-
- function cube(x){
-    return x**3;
- }
+const average = (a, b) => (a+b)/2;
+const square = (x) => x**2;
+const cube = (x) => x**3;
 
  function calculate(){
     const result = [];
@@ -35,7 +27,6 @@
             cube(i)
         ));
     }
-
     return result;
  }
 

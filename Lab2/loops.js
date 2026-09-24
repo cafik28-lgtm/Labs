@@ -1,9 +1,3 @@
-/*
-Цикли
-Реалізуйте функцію range(start: number, end: number): array 
-яка віддає масив чисел з діапазону [15, 30], включаючи крайні числа.
- */
-
 function range(start, end){
     if(start > end) {
         let temp = start;
@@ -24,10 +18,7 @@ console.log('Array of range(15,30):');
 console.log(range(15, 30));
 console.log('===========================');
 
-/*
-Реалізуйте функцію rangeOdd(start: number, end: number): array 
-яка віддає масив непарних чисел з діапазону [15, 30], включаючи крайні числа.
-*/
+
 
 function rangeOdd(start, end){
     if(start > end) {

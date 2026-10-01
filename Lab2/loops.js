@@ -18,8 +18,6 @@ console.log('Array of range(15,30):');
 console.log(range(15, 30));
 console.log('===========================');
 
-
-
 function rangeOdd(start, end){
     if(start > end) {
         let temp = start;

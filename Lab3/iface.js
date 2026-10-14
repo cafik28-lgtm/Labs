@@ -15,3 +15,4 @@ for(i of Object.keys(iface)){
 }
 
 console.log(JSON.stringify(result));
+console.log(result);

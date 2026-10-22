@@ -1,24 +1,21 @@
 const array = () => {
     const data = [];
-    const elem = (i) => data[i];
-    elem.push = (x) => data.push(x);
-    elem.pop = () => data.pop();
+    const arr = (index) => data[index];
+    arr.push = (value) => data.push(value);
+    arr.pop = () => data.pop();
 
-    return elem;
+    return arr;
 };
 
-const arr = array();
+const a = array();
 
-arr.push('first');
-arr.push('second');
-arr.push('third');
+a.push('first');
+a.push('second');
+a.push('third');
 
-console.log(arr(0)); 
-console.log(arr(1));
-console.log(arr(2)); 
+console.log(a(1));
 
-console.log(arr.pop()); 
-console.log(arr.pop()); 
-console.log(arr.pop());
-
-console.log(arr.pop());
+console.log(a.pop());
+console.log(a.pop());
+console.log(a.pop());
+console.log(a.pop());

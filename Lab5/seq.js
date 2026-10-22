@@ -1,8 +1,8 @@
 const seq = f => g => {
-    if(typeof g === 'number'){
-        return f(g);
+    if(typeof g === 'function'){
+      return seq(x => f(g(x)));
     }
-    return seq(x => f(g(x)));
+    return f(g);
 };
 
 const res1 = seq(x => x + 7)
